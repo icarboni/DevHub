@@ -11,6 +11,7 @@ It’s designed to be modular, scalable, and easy to test.
 
 ### Workspace Structure
 
+```
 DevHub/
 ├─ apps/
 │ ├─ web/ # Next.js frontend
@@ -27,7 +28,7 @@ DevHub/
 ├─ package.json
 ├─ pnpm-workspace.yaml
 └─ README.md
-
+```
 
 ---
 
