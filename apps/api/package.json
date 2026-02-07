@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "echo \"config dev\"",
     "build": "echo \"config build\"",
-    "lint": "echo \"config lint\"",
-    "test": "echo \"config test\""
+    "test": "echo \"config test\"",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
   }
 }
