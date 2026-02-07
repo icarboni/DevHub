@@ -2,9 +2,17 @@
   "name": "@devhub/api",
   "private": true,
   "scripts": {
-    "dev": "echo \"config dev\"",
-    "build": "echo \"config build\"",
-    "test": "echo \"config test\"",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
