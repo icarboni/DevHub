@@ -1,0 +1,10 @@
+{
+  "name": "@devhub/web",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"config dev\"",
+    "build": "echo \"config build\"",
+    "lint": "echo \"config lint\"",
+    "test": "echo \"config test\""
+  }
+}
