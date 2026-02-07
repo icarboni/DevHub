@@ -8,13 +8,15 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "tsc": "turbo run tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
   "devDependencies": {
-    "turbo": "^2.8.3"
+    "turbo": "^2.8.3",
+    "typescript": "^5.9.3"
   }
 }
